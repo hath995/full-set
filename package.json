@@ -2,7 +2,7 @@
   "name": "full-set",
   "version": "1.0.0",
   "description": "A batteries include Set class built on top of ES6 sets",
-  "main": "set.js",
+  "main": "index.js",
   "directories": {
     "test": "tests"
   },
