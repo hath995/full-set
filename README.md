@@ -19,6 +19,7 @@ This library relies on ES6 Sets, and so either a recent version of Node or the b
 
 ### Methods
 
+* [`constructor`](#constructor)
 * [`add`](#add)
 * [`clone`](#clone)
 * [`contains`](#contains)
