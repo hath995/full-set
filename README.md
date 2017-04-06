@@ -37,7 +37,7 @@ This library relies on ES6 Sets, and so either a recent version of Node or the b
 * [`size`](#size)
 
 
-<a name="constructor">
+<a name="constructor"></a>
 ### constructor
 
 Creates and adds elements to a set.
@@ -54,7 +54,7 @@ __Example__
 
 ----------------------------------------
 
-<a name="add">
+<a name="add"></a>
 ### add
 
 Adds elements to the set
@@ -70,7 +70,7 @@ __Arguments__
 
 ----------------------------------------
 
-<a name="clone">
+<a name="clone"></a>
 ### clone
 
 Creates a copy of a set
@@ -84,7 +84,7 @@ __Example__
 
 ----------------------------------------
 
-<a name="contains">
+<a name="contains"></a>
 ### contains
 
 Given an element will reply with a boolean if the set containts that element
@@ -102,7 +102,7 @@ __Example__
 
 ----------------------------------------
 
-<a name="equal">
+<a name="equal"></a>
 ### equal
 
 This will compare another set for equality, when both sets contain the same elements
@@ -123,7 +123,7 @@ __Example__
 
 ----------------------------------------
 
-<a name="remove">
+<a name="remove"></a>
 ### remove
 
 Remove elements from a set
@@ -145,7 +145,7 @@ __Example__
 
 ----------------------------------------
 
-<a name="values">
+<a name="values"></a>
 ### values
 
 Returns an iterator of the elements in the set
@@ -160,7 +160,7 @@ __Example__
 
 ----------------------------------------
 
-<a name="union">
+<a name="union"></a>
 ### union
 
 Create a new set which has all the elements of both sets.
@@ -179,7 +179,7 @@ __Example__
 
 ----------------------------------------
 
-<a name="intersect">
+<a name="intersect"></a>
 ### intersect
 
 Create a new set which only has elements this set and the other set contain.
@@ -198,7 +198,7 @@ __Example__
 
 ----------------------------------------
 
-<a name="complement">
+<a name="complement"></a>
 ### complement
 
 Given a universe set, it will return all of the elements not in this set.
@@ -217,7 +217,7 @@ __Example__
 
 ----------------------------------------
 
-<a name="relativeComplement">
+<a name="relativeComplement"></a>
 ### relativeComplement
 
 Given another set, it will return a set of elements that are only in this set relative to the other set.
@@ -236,7 +236,7 @@ __Example__
 
 ----------------------------------------
 
-<a name="symmetricDifference">
+<a name="symmetricDifference"></a>
 ### symmetricDifference
 
 Given another set, it will return a set of elements that are in this set and in the other set, but not the elements that are in both.
@@ -255,7 +255,7 @@ __Example__
 
 ----------------------------------------
 
-<a name="crossProduct">
+<a name="crossProduct"></a>
 ### crossProduct
 
 Given another set, it will return a new set of ordered pairs (Arrays) of every combination of this set elements and the other sets elements.
@@ -274,7 +274,7 @@ __Example__
 
 ----------------------------------------
 
-<a name="powerSetIter">
+<a name="powerSetIter"></a>
 ### powerSetIter
 
 Iterator for all subsets of the set
@@ -289,7 +289,7 @@ __Example__
 
 ----------------------------------------
 
-<a name="powerSet">
+<a name="powerSet"></a>
 ### powerSet
 
 Set of all subsets
@@ -305,7 +305,7 @@ __Example__
 
 ----------------------------------------
 
-<a name="cardinality">
+<a name="cardinality"></a>
 ### cardinality
 
 Returns the number of elements in the set. 
@@ -319,7 +319,7 @@ __Example__
 
 ----------------------------------------
 
-<a name="size">
+<a name="size"></a>
 ### size
 
 Returns the number of elements in the set. 
